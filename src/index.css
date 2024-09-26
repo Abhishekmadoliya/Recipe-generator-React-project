@@ -1,0 +1,68 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conatiner{
+    margin-left: 50px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+    /* gap: 20px; */
+    background-color: rgb(80, 79, 79);
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    
+    
+}
+
+.nav-left a{
+    margin-left: 20px;
+}
+
+#serachbox{
+    width: 30%;
+
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+#dishimage{
+    width: 80%;
+    height: 80%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    
+    
+}
+
+.card-title{
+    color: blue;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.card-header{
+    color: rgb(243, 45, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
